@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Color de fondo de la página */
+}
+
+.chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Asegura que el chatbot esté por encima de otros elementos */
+}
+
+.chat-window {
+  display: none; /* Ocultar por defecto */
+}
+
+.chat-header {
+  background-color: #007bff; /* Color de fondo del encabezado */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.chat-body {
+  height: 200px;
+  overflow-y: auto; /* Permitir desplazamiento vertical */
+  padding: 10px;
+  background-color: #f9f9f9; /* Color de fondo del cuerpo del chat */
+}
+
+.chat-input {
+  display: flex;
+  padding: 10px;
+  background-color: #fff; /* Color de fondo del área de entrada */
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-input button {
+  padding: 10px;
+  margin-left: 5px;
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #0056b3; /* Color de fondo del botón al pasar el mouse */
+}
+
+.bot-message {
+  background-color: #f1f1f1; /* Color de fondo de los mensajes del bot */
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.user-message {
+  background-color: #d1e7dd; /* Color de fondo de los mensajes del usuario */
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+  text-align: right; /* Alinear mensajes del usuario a la derecha */
+}
