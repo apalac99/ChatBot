@@ -26,7 +26,7 @@ const swaggerOptions = {
     info: {
       title: "Chatbot API",
       version: "1.0.0",
-      description: "API para chatbot y gestión de estudiantes",
+      description: "API para chatbot",
     },
   },
   apis: ["./routes/api.js"],
